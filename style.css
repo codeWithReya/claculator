@@ -1,34 +1,34 @@
 *{
     padding: 0;
-    margin: 4px auto;
-    background: #ffb6b9, #c4f6ff;
-    border: 20px solid rgb(219, 205, 205);
+    background: #878a8c;
 }
 
 h1 {
     text-align: center;
     font-size: 60px;
     color: whitesmoke;
-    text-shadow: 0 0 5px rgb(172, 172, 210),
-                 0 0 5px rgb(125, 125, 213),
-                 0 0 5px rgb(60, 60, 72);
-    border-style: groove;
+    text-shadow: 0 0 5px rgb(23, 24, 22),
+                 0 0 5px rgb(72, 22, 12),
+                 0 0 5px rgb(4, 139, 116);
+    margin-bottom: 0;
 }
 
 h3 {
+    margin-top: 0;
     text-align: center;
     font-size: 30px;
     color: whitesmoke;
-    text-shadow: 0 0 5px rgb(172, 172, 210),
-                 0 0 5px rgb(125, 125, 213),
-                 0 0 5px rgb(60, 60, 72);
+    text-shadow: 0 0 5px rgb(23, 24, 22),
+                 0 0 5px rgb(72, 22, 12),
+                 0 0 5px rgb(4, 139, 116);
 }
 
 .calc-container {
-    width: 80%;
-    height: 650px;
+    width: 50%;
+    height: 700px;
     border: 6px solid rgb(205, 50, 174);
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10%;
+    margin-left: 24.5%;
 }
+
