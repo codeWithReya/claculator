@@ -1,5 +1,9 @@
 *{
     padding: 0;
+}
+
+body {
+    
     background: #878a8c;
 }
 
@@ -26,9 +30,302 @@ h3 {
 .calc-container {
     width: 50%;
     height: 700px;
-    border: 6px solid rgb(205, 50, 174);
-    margin-top: 10px;
+    border: 10px solid rgb(33, 3, 27);
+    margin-top: 40px;
     margin-bottom: 10px;
     margin-left: 24.5%;
+    border-radius: 4%;
+    overflow: hidden;
+    background: #81a6be;
 }
 
+.screen input {
+    margin: 0;
+    padding: 100px;
+    width: 59.65%;
+    margin-top: 1px;
+    margin-left: 3px;
+    border: 8px solid salmon;
+    border-radius: 2%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    border-style: groove;
+    background: #beccd2;
+    box-shadow: 20px 8px 30px rgba(54, 9, 161, 0.3);
+}
+
+.symbols {
+    border: 8px solid salmon;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 55%;
+    margin-left: 83%;
+    margin-top: -45.75%;
+    border-radius: 2%;
+    border-style: groove;
+    background: seashell;
+    box-shadow: 20px 8px 30px rgba(54, 9, 161, 0.3);
+}
+
+.symbols button {
+    padding: 0;
+    padding: 4.5px;
+    border: 2px solid salmon;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    background: #b8d8e6;
+}
+
+.symbols button:hover {
+    color: aqua;
+    background: rgb(106, 98, 220);
+}
+
+.symbols button:active {
+    background: skyblue;
+    color: blue;
+    transform: scale(0.55);
+}
+
+.number button {
+    box-shadow: 50px 15px 60px rgba(54, 9, 161, 0.3);
+    background: #b8d8e6;
+}
+
+.number button:hover { 
+    color: aqua;
+    background: rgb(106, 98, 220);
+}
+
+.number button:active {
+    background: skyblue;
+    color: blue;
+    transform: scale(0.55);
+}
+
+.first {
+    margin-top: 20px;
+    padding: 59px;
+    font-size: 40px;
+    margin-left: 3px;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.second {
+    margin-top: -160px;
+    padding: 59px;
+    font-size: 40px;
+    margin-left: 1px;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.three {
+    margin-top: -160px;
+    padding: 59px;
+    font-size: 40px;
+    margin-left: 1px;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.four {
+    margin-top: -160px;
+    padding: 59px;
+    font-size: 40px;
+    margin-left: 1px;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.five {
+    margin-top: -160px;
+    padding: 59px;
+    font-size: 40px;
+    margin-left: 1px;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.six {
+    position: absolute;
+    margin-top: 200px;
+    padding: 59px;
+    font-size: 40px;
+    left: 25.45%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.seven {
+    position: absolute;
+    margin-top: 200px;
+    padding: 59px;
+    font-size: 40px;
+    left: 33.65%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.eight {
+    position: absolute;
+    margin-top: 200px;
+    padding: 59px;
+    font-size: 40px;
+    left: 41.85%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.nine {
+    position: absolute;
+    margin-top: 200px;
+    padding: 59px;
+    font-size: 40px;
+    left: 50.15%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.ten {
+    position: absolute;
+    margin-top: 200px;
+    padding: 59px;
+    font-size: 40px;
+    left: 58.35%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.zero {
+    position: absolute;
+    margin-top: 170px;
+    width: 8%;
+    height: 22.35%;
+    font-size: 40px;
+    left: 66.5%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.brackets button{
+    box-shadow: 50px 15px 60px rgba(54, 9, 161, 0.3);
+    background: #b8d8e6;
+}
+
+.brackets button:hover { 
+    color: aqua;
+    background: rgb(106, 98, 220);
+}
+
+.brackets button:active {
+    background: skyblue;
+    color: blue;
+    transform: scale(0.55);
+}
+
+.curly-l {
+    position: absolute;
+    margin-top: 217px;
+    width: 7%;
+    height: 8%;
+    border-radius: 7%;
+    font-size: 40px;
+    margin-left: 4px;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.curly-r {
+    position: absolute;
+    margin-top: 217px;
+    width: 7%;
+    height: 8%;
+    border-radius: 7%;
+    font-size: 40px;
+    margin-left: 7.25%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.rec-l {
+    position: absolute;
+    margin-top: 217px;
+    width: 7%;
+    height: 8%;
+    border-radius: 7%;
+    font-size: 40px;
+    margin-left: 14.25%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.rec-r {
+    position: absolute;
+    margin-top: 217px;
+    width: 7%;
+    height: 8%;
+    border-radius: 7%;
+    font-size: 40px;
+    margin-left: 21.25%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.curve-l {
+    position: absolute;
+    margin-top: 217px;
+    width: 7%;
+    height: 8%;
+    border-radius: 7%;
+    font-size: 40px;
+    margin-left: 28.25%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.curve-r {
+    position: absolute;
+    margin-top: 217px;
+    width: 7%;
+    height: 8%;
+    border-radius: 7%;
+    font-size: 40px;
+    margin-left: 35.25%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
+
+.rem {
+    position: absolute;
+    margin-top: 217px;
+    width: 7%;
+    height: 8%;
+    border-radius: 7%;
+    font-size: 40px;
+    margin-left: 42.25%;
+    overflow: hidden;
+    border: 6px solid salmon;
+    border-style: groove;
+}
